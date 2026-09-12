@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Servicios integrales para hogares, negocios, oficinas y vehículos en Lima: electricidad, construcción, pintura, limpieza, interiores y accesorios para autos y motos.">
+<title>Soluciones 360° | Servicios Integrales en Lima</title>
+<style>
+:root{--navy:#071a2b;--blue:#0c3554;--yellow:#f7b718;--cream:#fffaf0;--gray:#667483;--bg:#f5f7f9;--white:#fff;--line:#e5eaf0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#14202b;background:#fff;line-height:1.55}a{text-decoration:none}
+.container{width:min(1160px,92%);margin:auto}.top{background:var(--navy);color:#dbe7f0;font-size:13px}.top .container{display:flex;justify-content:space-between;padding:8px 0}
+header{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line)}.nav{height:74px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:950;color:var(--navy);font-size:22px}.logo b{color:var(--yellow)}nav{display:flex;gap:24px;align-items:center}nav a{color:#23313d;font-weight:750;font-size:14px}nav a:hover{color:#b27a00}.navcta{padding:11px 16px;background:var(--navy);color:#fff!important;border-radius:9px}.hamb{display:none;font-size:26px}
+.hero{background:radial-gradient(circle at 85% 20%,#1c5a84 0,#0c3554 36%,#071a2b 75%);color:#fff;padding:92px 0 84px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:55px;align-items:center}
+.kicker{display:inline-flex;background:rgba(247,183,24,.13);border:1px solid rgba(247,183,24,.55);padding:7px 12px;border-radius:99px;color:#ffd85f;font-size:12px;font-weight:900;letter-spacing:.5px}.hero h1{font-size:clamp(42px,6vw,74px);line-height:.98;margin:20px 0 22px;letter-spacing:-2.5px}.hero p{font-size:18px;color:#d6e4ee;max-width:680px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:9px;font-weight:900;border:2px solid transparent;cursor:pointer}.primary{background:var(--yellow);color:#151515}.outline{border-color:#fff;color:#fff}.outline:hover{background:#fff;color:var(--navy)}
+.hero-panel{background:#fff;color:#162430;padding:30px;border-radius:18px;box-shadow:0 30px 80px #0006}.hero-panel h3{font-size:20px;margin:0 0 18px}.hero-panel .item{display:flex;gap:13px;padding:13px 0;border-bottom:1px solid var(--line)}.hero-panel .item:last-child{border:0}.ico{font-size:24px}
+.trust{background:var(--yellow);padding:14px 0}.trust .container{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;font-size:13px;font-weight:850}
+section{padding:82px 0}.head{text-align:center;max-width:720px;margin:0 auto 44px}.head h2{font-size:38px;line-height:1.1;color:var(--navy);margin:0 0 12px;letter-spacing:-1px}.head p{color:var(--gray);margin:0}
+.services{background:var(--bg)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:27px;box-shadow:0 8px 25px #0b1d2b08;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 16px 32px #0b1d2b12}.card .big{font-size:31px}.card h3{color:var(--navy);margin:12px 0 7px}.card p{color:var(--gray);font-size:14px;margin:0}.tag{display:inline-block;margin-top:16px;font-size:12px;font-weight:850;color:#856000;background:#fff5d5;padding:5px 9px;border-radius:20px}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.whybox{background:var(--navy);border-radius:20px;padding:38px;color:#fff}.whybox h3{font-size:28px;margin:0 0 12px}.whybox p{color:#cbdbe6}.list{list-style:none;padding:0;margin:22px 0 0}.list li{margin:12px 0}.list li:before{content:"✓";color:var(--yellow);font-weight:950;margin-right:9px}
+.steps{background:var(--cream)}.stepsgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.step{padding:24px;background:#fff;border:1px solid #f1e5c5;border-radius:14px}.num{width:36px;height:36px;display:grid;place-items:center;background:var(--yellow);border-radius:50%;font-weight:950}.step h3{font-size:17px;margin:14px 0 7px}.step p{font-size:13px;color:var(--gray);margin:0}
+.products{background:var(--bg)}.productbox{border:2px dashed #cfd8e1;background:#fff;border-radius:18px;padding:48px;text-align:center}.productbox .big{font-size:48px}.productbox h3{font-size:24px;color:var(--navy);margin:10px}.productbox p{color:var(--gray);max-width:650px;margin:auto}
+.gallery{display:grid;grid-template-columns:1.2fr .8fr .8fr;grid-template-rows:210px 210px;gap:14px}.photo{border-radius:16px;background:linear-gradient(135deg,#dce5eb,#f7f9fa);display:grid;place-items:center;color:#758391;font-weight:800;text-align:center;padding:15px}.photo:first-child{grid-row:1/3}.photo span{font-size:40px;display:block;margin-bottom:8px}
+.contact{background:var(--bg)}.contactgrid{display:grid;grid-template-columns:.8fr 1.2fr;gap:25px}.contactcard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:30px}.contactcard h3{margin-top:0;color:var(--navy)}.info{padding:13px 0;border-bottom:1px solid var(--line)}.info:last-child{border:0}.info strong{display:block;color:var(--navy)}.info span{color:var(--gray);font-size:14px}
+form{display:grid;gap:12px}input,select,textarea{font:inherit;padding:13px;border:1px solid #d5dde5;border-radius:9px;width:100%;outline:none}input:focus,select:focus,textarea:focus{border-color:#6f9bb7}textarea{min-height:125px;resize:vertical}.submit{background:var(--navy);color:#fff;border:0}.submit:hover{background:#123b5b}
+.cta{background:linear-gradient(100deg,#f7b718,#ffd86b);text-align:center}.cta h2{font-size:40px;line-height:1.1;margin:0 0 10px}.cta p{max-width:650px;margin:0 auto 25px}
+footer{background:var(--navy);color:#b9c9d5;padding:30px 0;font-size:13px}footer .container{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}footer strong{color:#fff}.wa{position:fixed;right:20px;bottom:20px;width:60px;height:60px;border-radius:50%;background:#20c96b;color:#fff;display:grid;place-items:center;font-size:26px;font-weight:900;box-shadow:0 10px 30px #0004;z-index:30}
+@media(max-width:850px){nav{display:none}.hamb{display:block}.hero-grid,.why,.contactgrid{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.stepsgrid{grid-template-columns:1fr 1fr}.hero{padding:65px 0}.top .container{justify-content:center}}
+@media(max-width:560px){.cards,.stepsgrid{grid-template-columns:1fr}.gallery{display:grid;grid-template-columns:1fr;grid-template-rows:auto}.photo:first-child{grid-row:auto}.photo{min-height:170px}.hero h1{letter-spacing:-1.5px}.hero p{font-size:16px}.head h2{font-size:31px}section{padding:62px 0}}
+</style>
+</head>
+<body>
+<div class="top"><div class="container"><span>Servicios integrales · Lima Metropolitana y Callao</span><span>Atención por WhatsApp</span></div></div>
+<header><div class="container nav">
+<a class="logo" href="#inicio">SOLUCIONES <b>360°</b></a>
+<nav><a href="#servicios">Servicios</a><a href="#nosotros">Nosotros</a><a href="#trabajos">Trabajos</a><a href="#productos">Productos</a><a href="#contacto">Contacto</a><a class="navcta" href="#contacto">Cotizar</a></nav>
+<div class="hamb">☰</div></div></header>
+
+<main id="inicio">
+<section class="hero"><div class="container hero-grid"><div>
+<span class="kicker">UN SOLO CONTACTO · MÚLTIPLES SOLUCIONES</span>
+<h1>Mejoramos tus espacios y tu vehículo.</h1>
+<p>Servicios de electricidad, construcción, pintura, limpieza, diseño de interiores y accesorios para autos y motos. Cuéntanos lo que necesitas y preparemos una solución a tu medida.</p>
+<div class="actions"><a class="btn primary" href="#contacto">Solicitar cotización</a><a class="btn outline" href="#servicios">Explorar servicios</a></div>
+</div>
+<div class="hero-panel"><h3>Soluciones que ofrecemos</h3>
+<div class="item"><span class="ico">⚡</span><div><b>Electricidad</b><br><small>Instalaciones y mantenimiento</small></div></div>
+<div class="item"><span class="ico">🏠</span><div><b>Interiores</b><br><small>Diseño, renovación y acabados</small></div></div>
+<div class="item"><span class="ico">🔨</span><div><b>Construcción</b><br><small>Remodelación y mantenimiento</small></div></div>
+<div class="item"><span class="ico">🚗</span><div><b>Autos y motos</b><br><small>Accesorios e instalación</small></div></div>
+</div></div></section>
+
+<div class="trust"><div class="container"><span>✓ Atención personalizada</span><span>✓ Cotización según proyecto</span><span>✓ Hogar y negocio</span><span>✓ Nuevos productos próximamente</span></div></div>
+
+<section id="servicios" class="services"><div class="container"><div class="head"><h2>Servicios integrales</h2><p>Una plataforma para encontrar soluciones de mantenimiento, renovación, construcción y personalización.</p></div>
+<div class="cards">
+<article class="card"><div class="big">⚡</div><h3>Instalaciones eléctricas</h3><p>Iluminación, tomacorrientes, cableado, mantenimiento y otras soluciones eléctricas.</p><span class="tag">Hogar · Negocio</span></article>
+<article class="card"><div class="big">🏠</div><h3>Diseño de interiores</h3><p>Optimización de espacios, ideas de renovación, distribución y acabados.</p><span class="tag">Diseño · Renovación</span></article>
+<article class="card"><div class="big">🔨</div><h3>Construcción</h3><p>Remodelaciones, reparaciones, mantenimiento y mejoras generales.</p><span class="tag">Proyectos</span></article>
+<article class="card"><div class="big">🎨</div><h3>Pintura</h3><p>Renovación de ambientes, pintura interior y exterior y acabados.</p><span class="tag">Acabados</span></article>
+<article class="card"><div class="big">🧹</div><h3>Limpieza</h3><p>Limpieza de hogares, oficinas, locales y espacios antes o después de un proyecto.</p><span class="tag">Mantenimiento</span></article>
+<article class="card"><div class="big">🚗</div><h3>Accesorios auto & moto</h3><p>Instalación de accesorios para personalizar, proteger y mejorar tu vehículo.</p><span class="tag">Auto · Moto</span></article>
+</div></div></section>
+
+<section id="nosotros"><div class="container why"><div><div class="head" style="text-align:left;margin:0 0 18px"><h2>Tu proyecto, con un solo aliado.</h2><p>La idea de Soluciones 360° es facilitarte el proceso: nos cuentas qué necesitas, coordinamos y buscamos la solución adecuada.</p></div><ul class="list"><li>Atención directa y personalizada</li><li>Presupuesto según el trabajo solicitado</li><li>Servicios para particulares y negocios</li><li>Catálogo de productos en crecimiento</li></ul></div><div class="whybox"><h3>De la idea a la solución.</h3><p>Desde una instalación eléctrica hasta la renovación de un ambiente o la instalación de accesorios en tu vehículo.</p><a class="btn primary" href="#contacto">Hablar con nosotros</a></div></div></section>
+
+<section id="pasos" class="steps"><div class="container"><div class="head"><h2>¿Cómo trabajamos?</h2><p>Un proceso simple para convertir tu necesidad en un trabajo coordinado.</p></div><div class="stepsgrid">
+<div class="step"><div class="num">1</div><h3>Cuéntanos</h3><p>Indica qué necesitas y dónde se realizará.</p></div>
+<div class="step"><div class="num">2</div><h3>Evaluamos</h3><p>Revisamos los detalles y, cuando corresponda, coordinamos una visita.</p></div>
+<div class="step"><div class="num">3</div><h3>Cotizamos</h3><p>Definimos el alcance y presentamos una propuesta.</p></div>
+<div class="step"><div class="num">4</div><h3>Ejecutamos</h3><p>Coordinamos fecha, trabajo y entrega.</p></div>
+</div></div></section>
+
+<section id="trabajos"><div class="container"><div class="head"><h2>Galería de trabajos</h2><p>Reemplaza estos espacios por fotos reales de tus proyectos para generar confianza.</p></div>
+<div class="gallery"><div class="photo"><div><span>🏗️</span>Foto de proyectos de construcción</div></div><div class="photo"><div><span>⚡</span>Instalaciones</div></div><div class="photo"><div><span>🎨</span>Pintura y acabados</div></div><div class="photo"><div><span>🏠</span>Interiores</div></div><div class="photo"><div><span>🚗</span>Auto y moto</div></div></div></div></section>
+
+<section id="productos" class="products"><div class="container"><div class="head"><h2>Productos</h2><p>La tienda está preparada para crecer contigo.</p></div><div class="productbox"><div class="big">🛒</div><h3>Catálogo próximamente</h3><p>Aquí añadiremos productos, fotografías, precios, promociones, stock y botones de compra o consulta por WhatsApp.</p><div class="actions" style="justify-content:center"><a class="btn primary" href="#contacto">Quiero vender productos</a></div></div></div></section>
+
+<section class="cta"><div class="container"><h2>¿Qué necesitas resolver?</h2><p>Envíanos tu solicitud y conversemos sobre tu proyecto.</p><a class="btn" style="background:var(--navy);color:#fff" href="#contacto">Solicitar cotización</a></div></section>
+
+<section id="contacto" class="contact"><div class="container"><div class="head"><h2>Solicita tu cotización</h2><p>Completa los datos. El formulario abrirá WhatsApp con tu solicitud.</p></div>
+<div class="contactgrid"><div class="contactcard"><h3>Información comercial</h3>
+<div class="info"><strong>📱 WhatsApp</strong><span>+51 999 999 999 <small>(reemplazar)</small></span></div>
+<div class="info"><strong>📍 Zona de atención</strong><span>Lima Metropolitana y Callao</span></div>
+<div class="info"><strong>🕘 Horario</strong><span>Lunes a sábado · 8:00 a.m. – 6:00 p.m.</span></div>
+<div class="info"><strong>💬 Atención</strong><span>Consultas, presupuestos y coordinación de servicios.</span></div>
+</div>
+<div class="contactcard"><form onsubmit="sendWA(event)">
+<input id="name" required placeholder="Nombre completo">
+<input id="phone" placeholder="Teléfono / celular">
+<select id="service"><option value="">¿Qué servicio necesitas?</option><option>Instalaciones eléctricas</option><option>Diseño de interiores</option><option>Construcción / remodelación</option><option>Pintura</option><option>Limpieza</option><option>Accesorios para auto o moto</option><option>Compra de productos</option><option>Otro</option></select>
+<textarea id="message" required placeholder="Cuéntanos brevemente qué necesitas, ubicación aproximada y cualquier detalle importante."></textarea>
+<button class="btn submit" type="submit">Enviar solicitud por WhatsApp</button></form></div></div></div></section>
+</main>
+
+<a class="wa" href="https://wa.me/51999999999" target="_blank" aria-label="WhatsApp">◉</a>
+<footer><div class="container"><div><span>© 2026 <strong>MS GROUP</strong> · Soluciones que hacen crecer tu negocio</span></div><div><strong>Razón social:</strong> J&amp;C COMERCIAL E INGENIERIA SAC <span style="margin-left:14px"><strong>RUC:</strong> 20612623342</span></div></div></footer>
+<script>
+function sendWA(e){
+e.preventDefault();
+const n=document.getElementById('name').value,t=document.getElementById('phone').value,s=document.getElementById('service').value||'No especificado',m=document.getElementById('message').value;
+const text=encodeURIComponent(`Hola, quiero solicitar una cotización.%0ANombre: ${n}%0ATeléfono: ${t}%0AServicio: ${s}%0ADetalles: ${m}`);
+window.open('https://wa.me/51999999999?text='+text,'_blank');
+}
+</script>
+</body></html>
